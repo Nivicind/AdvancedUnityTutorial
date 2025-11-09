@@ -168,6 +168,12 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 114854772269584276, guid: 0b8ca2f9914b7f746b3ea1444786a63e,
+        type: 3}
+      propertyPath: OnSwordSelected
+      value: 
+      objectReference: {fileID: 11400000, guid: 4e77d11d7c538f742a4059ff32bace90,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b8ca2f9914b7f746b3ea1444786a63e, type: 3}
 --- !u!4 &354912689 stripped
@@ -176,6 +182,30 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 112259264}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &355615140 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114181759690190502, guid: 149c551c1f78ff844892ddc7b4591a81,
+    type: 3}
+  m_PrefabInstance: {fileID: 947174232}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &600224933 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114099244540979298, guid: 149c551c1f78ff844892ddc7b4591a81,
+    type: 3}
+  m_PrefabInstance: {fileID: 947174232}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &730712620 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4253070978743176, guid: 39069f295ce0e20479c06ddb8196bb35,
@@ -331,8 +361,26 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 114329817378986084, guid: c1005caa6941a45418635cdf0f1139ea,
+        type: 3}
+      propertyPath: OnSwordSelected
+      value: 
+      objectReference: {fileID: 11400000, guid: b0c3e28dfed403449b57d259f5eadbf9,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1005caa6941a45418635cdf0f1139ea, type: 3}
+--- !u!114 &1233228123 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114819868484012288, guid: 149c551c1f78ff844892ddc7b4591a81,
+    type: 3}
+  m_PrefabInstance: {fileID: 947174232}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!850595691 &1305028779
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -481,6 +529,12 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 114919863713329672, guid: 5702e839c26040d42b40429b7dbb89cc,
+        type: 3}
+      propertyPath: OnSwordSelected
+      value: 
+      objectReference: {fileID: 11400000, guid: c5ae608e234de7b40a977aa0a244922e,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5702e839c26040d42b40429b7dbb89cc, type: 3}
 --- !u!1001 &1506613288
@@ -522,6 +576,12 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 114889108461879984, guid: dca4a46237666594aae4c02dc49e9ed3,
+        type: 3}
+      propertyPath: OnSwordSelected
+      value: 
+      objectReference: {fileID: 11400000, guid: 0849b1c44db380744871cc80e9cdff7b,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dca4a46237666594aae4c02dc49e9ed3, type: 3}
 --- !u!4 &1545192334 stripped
@@ -530,12 +590,250 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1496437134}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1663741185 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1560570793081158, guid: 149c551c1f78ff844892ddc7b4591a81,
+    type: 3}
+  m_PrefabInstance: {fileID: 947174232}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1663741186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663741185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a4cefdac11fa04dade9e850f874d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 6e0ef0c12d2e6044497e8443fb00c0fe, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1663741193}
+        m_TargetAssemblyTypeName: SwordMerchant, Assembly-CSharp
+        m_MethodName: UpdateDisplayUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 80bbc932944bf9749b3380846bf98e52,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1663741187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663741185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a4cefdac11fa04dade9e850f874d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 0849b1c44db380744871cc80e9cdff7b, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1663741193}
+        m_TargetAssemblyTypeName: SwordMerchant, Assembly-CSharp
+        m_MethodName: UpdateDisplayUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: ed24fd79c59b1d544aed5e61c64242eb,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1663741188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663741185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a4cefdac11fa04dade9e850f874d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 4e77d11d7c538f742a4059ff32bace90, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1663741193}
+        m_TargetAssemblyTypeName: SwordMerchant, Assembly-CSharp
+        m_MethodName: UpdateDisplayUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 82031e801c7e87c4b99df50478e603e5,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1663741189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663741185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a4cefdac11fa04dade9e850f874d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: b0c3e28dfed403449b57d259f5eadbf9, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1663741193}
+        m_TargetAssemblyTypeName: SwordMerchant, Assembly-CSharp
+        m_MethodName: UpdateDisplayUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 25b35a10473a1cd47ba0562b08c55853,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1663741190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663741185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a4cefdac11fa04dade9e850f874d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: c5ae608e234de7b40a977aa0a244922e, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1663741193}
+        m_TargetAssemblyTypeName: SwordMerchant, Assembly-CSharp
+        m_MethodName: UpdateDisplayUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 23381fafd0adfa649af201127bd1edc2,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1663741191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663741185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a4cefdac11fa04dade9e850f874d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: 667465fae6a0d3043bcb5b3a825f7c43, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1663741193}
+        m_TargetAssemblyTypeName: SwordMerchant, Assembly-CSharp
+        m_MethodName: UpdateDisplayUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: a8b61653203800346a7e8588e328e40e,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1663741192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663741185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a4cefdac11fa04dade9e850f874d67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: f93dddd881fc6cb40a7f4fcbbd0d5688, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1663741193}
+        m_TargetAssemblyTypeName: SwordMerchant, Assembly-CSharp
+        m_MethodName: UpdateDisplayUI
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 6d925aa348657d645b2a17b0e9cdb492,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: SwordData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1663741193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663741185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadf7db98fc85b047900ae361df2cd70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordName: {fileID: 355615140}
+  description: {fileID: 1863030009}
+  icon: {fileID: 600224933}
+  goldCost: {fileID: 1720253123}
+  attackDamage: {fileID: 1233228123}
 --- !u!4 &1671477898 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4933422604388220, guid: c1005caa6941a45418635cdf0f1139ea,
     type: 3}
   m_PrefabInstance: {fileID: 985363700}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1720253123 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114096612776099566, guid: 149c551c1f78ff844892ddc7b4591a81,
+    type: 3}
+  m_PrefabInstance: {fileID: 947174232}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1745653464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -575,6 +873,12 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 114197732231314864, guid: 52231d642efb9b54ea6b8739d77908c5,
+        type: 3}
+      propertyPath: OnSwordSelected
+      value: 
+      objectReference: {fileID: 11400000, guid: 667465fae6a0d3043bcb5b3a825f7c43,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52231d642efb9b54ea6b8739d77908c5, type: 3}
 --- !u!1001 &1773880809
@@ -622,8 +926,26 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 6d925aa348657d645b2a17b0e9cdb492,
         type: 2}
+    - target: {fileID: 114602543209253182, guid: 39069f295ce0e20479c06ddb8196bb35,
+        type: 3}
+      propertyPath: OnSwordSelected
+      value: 
+      objectReference: {fileID: 11400000, guid: f93dddd881fc6cb40a7f4fcbbd0d5688,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39069f295ce0e20479c06ddb8196bb35, type: 3}
+--- !u!114 &1863030009 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114395076152756604, guid: 149c551c1f78ff844892ddc7b4591a81,
+    type: 3}
+  m_PrefabInstance: {fileID: 947174232}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1882356582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -663,6 +985,12 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 114838149804592962, guid: b8bc53f0eae47e34db6ca6fe84e1055c,
+        type: 3}
+      propertyPath: OnSwordSelected
+      value: 
+      objectReference: {fileID: 11400000, guid: 6e0ef0c12d2e6044497e8443fb00c0fe,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8bc53f0eae47e34db6ca6fe84e1055c, type: 3}
 --- !u!1 &1893504797
